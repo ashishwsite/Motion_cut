@@ -19,7 +19,6 @@
         background-color: rgb(142, 141, 139);
       }
       .nav a {
-        padding: 4px;
         border: 1px solid rgb(55, 52, 52);
         border-radius: 6px;
         background-color: rgb(31, 31, 232);
@@ -50,36 +49,43 @@
   </head>
   <body>
     <div class="container py-3">
-      <header>
-        <div
-          class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom"
-        >
-          <a
-            href="/"
-            class="d-flex align-items-center link-body-emphasis text-decoration-none"
-          >
-            <img src="icon.png" alt="_logo" width="28" height="32" />
-
-            <span class="fs-1 p-2">iNotebook</span>
-          </a>
-
-          <nav class="nav d-inline-flex mt-2 mt-md-0 ms-md-auto">
-            <a class="me-3 link-body-emphasis text-decoration-none" href="#"
-              >Features</a
+        <header >
+            <div
+              class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom" 
             >
-            <a class="me-3 link-body-emphasis text-decoration-none" href="#"
-              >Enterprise</a
-            >
-            <a class="me-3 link-body-emphasis text-decoration-none" href="#"
-              >Sign-up</a
-            >
-            <a class="me-3 link-body-emphasis text-decoration-none" href="#"
-              >Pricing</a
-            >
-          </nav>
-        </div>
-      </header>
-      
+              <a
+                href="/"
+                class="d-flex align-items-center link-body-emphasis text-decoration-none"
+              >
+                <img src="icon.png" alt="_logo" width="28" height="32" />
+    
+                <span class="fs-1 p-2">iNotebook</span>
+              </a>
+    
+              <nav class="nav d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                <a
+                  class="me-3 py-1 link-body-emphasis text-decoration-none"
+                  href="#"
+                  >Features</a
+                >
+                <a
+                  class="me-3 py-1 link-body-emphasis text-decoration-none"
+                  href="#"
+                  >Enterprise</a
+                >
+                <a
+                  class="me-3 py-1 link-body-emphasis text-decoration-none"
+                  href="#"
+                  >Sing-up</a
+                >
+                <a class="py-1 link-body-emphasis text-decoration-none" href="#"
+                  >Pricing</a
+                >
+              </nav>
+            </div>
+    
+          </header>
+     
     </div>
     <div class="container">
         <form onSubmit="{handleSubmit}">
